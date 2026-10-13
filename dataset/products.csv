@@ -1,0 +1,201 @@
+product_id,product_name,category,subcategory,unit_price,unit_of_measure,is_perishable,supplier_id,cost_price,reorder_level
+1,Aashirvaad Whole Wheat Atta 5kg,Groceries,Staples,265,Pack,False,3,159.0,53
+2,Aashirvaad Multigrain Atta 5kg,Groceries,Staples,310,Pack,False,3,186.0,39
+3,Patanjali Chakki Fresh Atta 10kg,Groceries,Staples,380,Pack,False,3,228.0,32
+4,India Gate Basmati Rice 5kg,Groceries,Staples,580,Pack,False,4,348.0,45
+5,Lal Qilla Sona Masoori Rice 5kg,Groceries,Staples,420,Pack,False,4,252.0,43
+6,Tata Sampann Toor Dal 1kg,Groceries,Staples,155,Pack,False,4,93.0,47
+7,Tata Sampann Moong Dal 1kg,Groceries,Staples,145,Pack,False,4,87.0,35
+8,Patanjali Chana Dal 1kg,Groceries,Staples,110,Pack,False,3,66.0,35
+9,Fortune Urad Dal 1kg,Groceries,Staples,130,Pack,False,4,78.0,48
+10,Tata Sampann Masoor Dal 1kg,Groceries,Staples,125,Pack,False,4,75.0,48
+11,Fortune Refined Sunflower Oil 1L,Groceries,Staples,135,Bottle,False,4,81.0,27
+12,Dhara Mustard Oil 1L,Groceries,Staples,145,Bottle,False,4,87.0,46
+13,DiSano Extra Virgin Olive Oil 500ml,Groceries,Staples,480,Bottle,False,9,288.0,26
+14,Uttam Sugar 1kg,Groceries,Staples,45,Pack,False,7,27.0,48
+15,Tata Rock Salt 1kg,Groceries,Staples,28,Pack,False,4,16.8,54
+16,Tata Iodised Salt 1kg,Groceries,Staples,22,Pack,False,4,13.2,26
+17,Patanjali Poha 500g,Groceries,Staples,38,Pack,False,3,22.8,45
+18,Aashirvaad Sooji Rava 500g,Groceries,Staples,42,Pack,False,3,25.2,57
+19,Rajdhani Besan 500g,Groceries,Staples,65,Pack,False,7,39.0,36
+20,Bambino Vermicelli 900g,Groceries,Staples,55,Pack,False,7,33.0,46
+21,Amul Full Cream Milk 1L,Groceries,Dairy,68,Pouch,True,1,40.8,64
+22,Mother Dairy Toned Milk 500ml,Groceries,Dairy,28,Pouch,True,1,16.8,66
+23,Amul Dahi 400g,Groceries,Dairy,52,Cup,True,1,31.2,67
+24,Epigamia Greek Yogurt 400g,Groceries,Dairy,115,Cup,True,1,69.0,55
+25,Amul Paneer 200g,Groceries,Dairy,95,Pack,True,1,57.0,54
+26,Mother Dairy Paneer 500g,Groceries,Dairy,215,Pack,True,1,129.0,42
+27,Amul Salted Butter 100g,Groceries,Dairy,58,Pack,True,1,34.8,76
+28,Amul Pure Ghee 500ml,Groceries,Dairy,315,Jar,False,1,189.0,31
+29,Patanjali Cow Ghee 1L,Groceries,Dairy,565,Jar,False,3,339.0,45
+30,Amul Processed Cheese 200g,Groceries,Dairy,115,Pack,True,1,69.0,48
+31,Amul Mozzarella Cheese 200g,Groceries,Dairy,195,Pack,True,1,117.0,78
+32,Amul Taaza UHT Milk 1L,Groceries,Dairy,72,Carton,False,1,43.2,42
+33,Amul Lassi 200ml,Groceries,Dairy,25,Pouch,True,1,15.0,43
+34,Mother Dairy Buttermilk 500ml,Groceries,Dairy,22,Bottle,True,1,13.2,64
+35,Milkmaid Condensed Milk 400g,Groceries,Dairy,155,Tin,False,5,93.0,38
+36,Britannia Marie Gold 250g,Groceries,Snacks,30,Pack,False,6,18.0,33
+37,Britannia Good Day Cashew 150g,Groceries,Snacks,40,Pack,False,6,24.0,50
+38,Parle Hide & Seek 150g,Groceries,Snacks,38,Pack,False,6,22.8,26
+39,Parle Monaco Crackers 200g,Groceries,Snacks,32,Pack,False,6,19.2,44
+40,Parle-G Glucose Biscuits 500g,Groceries,Snacks,45,Pack,False,6,27.0,52
+41,Haldirams Aloo Bhujia 400g,Groceries,Snacks,115,Pack,False,7,69.0,31
+42,Haldirams Moong Dal Namkeen 200g,Groceries,Snacks,65,Pack,False,7,39.0,32
+43,Lays Classic Salted 52g,Groceries,Snacks,20,Pack,False,4,12.0,59
+44,Kurkure Masala Munch 90g,Groceries,Snacks,20,Pack,False,4,12.0,38
+45,Bingo Mad Angles 90g,Groceries,Snacks,20,Pack,False,4,12.0,41
+46,Maggi 2-Minute Noodles 280g,Groceries,Snacks,78,Pack,False,5,46.8,28
+47,Sunfeast Yippee Noodles 280g,Groceries,Snacks,70,Pack,False,4,42.0,26
+48,Act II Butter Popcorn 100g,Groceries,Snacks,55,Pack,False,4,33.0,30
+49,Too Yumm Roasted Peanuts 200g,Groceries,Snacks,60,Pack,False,7,36.0,28
+50,Haldirams Chivda Mix 400g,Groceries,Snacks,120,Pack,False,7,72.0,53
+51,McVities Digestive Biscuits 250g,Groceries,Snacks,85,Pack,False,6,51.0,42
+52,Oreo Cream Biscuits 300g,Groceries,Snacks,75,Pack,False,5,45.0,50
+53,Quaker Rice Cakes 100g,Groceries,Snacks,110,Pack,False,5,66.0,58
+54,Lijjat Khakhra Plain 200g,Groceries,Snacks,70,Pack,False,7,42.0,34
+55,Lijjat Papad 200g,Groceries,Snacks,48,Pack,False,7,28.8,38
+56,Tata Tea Premium 500g,Groceries,Beverages,220,Pack,False,4,132.0,55
+57,Brooke Bond Red Label Tea 500g,Groceries,Beverages,245,Pack,False,2,147.0,39
+58,Lipton Green Tea 25 bags,Groceries,Beverages,125,Box,False,2,75.0,32
+59,Nescafe Classic 50g,Groceries,Beverages,195,Jar,False,5,117.0,38
+60,Bru Instant Coffee 100g,Groceries,Beverages,210,Jar,False,2,126.0,47
+61,Horlicks Original 500g,Groceries,Beverages,295,Jar,False,2,177.0,45
+62,Cadbury Bournvita 500g,Groceries,Beverages,285,Jar,False,4,171.0,40
+63,Complan Chocolate 500g,Groceries,Beverages,325,Jar,False,2,195.0,42
+64,Dabur Real Mango Juice 1L,Groceries,Beverages,135,Pack,False,9,81.0,48
+65,Tropicana Orange Juice 1L,Groceries,Beverages,140,Pack,False,2,84.0,50
+66,Paper Boat Aamras 250ml,Groceries,Beverages,30,Pack,False,7,18.0,49
+67,Minute Maid Pulpy Orange 400ml,Groceries,Beverages,35,Bottle,False,2,21.0,53
+68,Hamdard Rooh Afza 750ml,Groceries,Beverages,275,Bottle,False,7,165.0,39
+69,Kissan Mixed Fruit Jam 500g,Groceries,Beverages,165,Jar,False,4,99.0,25
+70,Raw Pressery Coconut Water 200ml,Groceries,Beverages,45,Tetra,False,7,27.0,49
+71,Limca 750ml,Groceries,Beverages,40,Bottle,False,4,24.0,31
+72,Thums Up 750ml,Groceries,Beverages,42,Bottle,False,4,25.2,33
+73,Maaza Mango 600ml,Groceries,Beverages,40,Bottle,False,4,24.0,48
+74,Frooti Mango 200ml,Groceries,Beverages,15,Pack,False,6,9.0,25
+75,B Natural Pomegranate Juice 1L,Groceries,Beverages,145,Pack,False,9,87.0,32
+76,MDH Chilli Powder 200g,Groceries,Spices,72,Pack,False,7,43.2,48
+77,Everest Turmeric Powder 200g,Groceries,Spices,65,Pack,False,7,39.0,35
+78,MDH Coriander Powder 200g,Groceries,Spices,58,Pack,False,7,34.8,41
+79,Everest Cumin Seeds 100g,Groceries,Spices,48,Pack,False,7,28.8,32
+80,MDH Garam Masala 100g,Groceries,Spices,85,Pack,False,7,51.0,59
+81,Everest Chicken Masala 100g,Groceries,Spices,78,Pack,False,7,46.8,59
+82,Shan Biryani Masala 50g,Groceries,Spices,95,Pack,False,7,57.0,57
+83,Maggi Tamarind Paste 200g,Groceries,Spices,65,Pack,False,5,39.0,29
+84,Kissan Tomato Ketchup 500g,Groceries,Spices,115,Bottle,False,4,69.0,52
+85,Maggi Green Chilli Sauce 200g,Groceries,Spices,85,Bottle,False,5,51.0,31
+86,Dr Oetker Mayonnaise 250g,Groceries,Spices,125,Jar,False,5,75.0,33
+87,Frenchs Mustard Sauce 200g,Groceries,Spices,140,Bottle,False,5,84.0,32
+88,Chings Soy Sauce 200ml,Groceries,Spices,70,Bottle,False,7,42.0,36
+89,MDH Chaat Masala 100g,Groceries,Spices,55,Pack,False,7,33.0,58
+90,Bragg Apple Cider Vinegar 500ml,Groceries,Spices,220,Bottle,False,5,132.0,57
+91,Britannia Whole Wheat Bread 400g,Groceries,Bakery,48,Pack,True,6,28.8,62
+92,Harvest Gold White Bread 400g,Groceries,Bakery,42,Pack,True,7,25.2,63
+93,Bonn Multigrain Bread 400g,Groceries,Bakery,55,Pack,True,7,33.0,76
+94,7 Days Butter Croissant 60g,Groceries,Bakery,25,Piece,True,6,15.0,74
+95,Britannia Fruit Cake 250g,Groceries,Bakery,90,Pack,False,6,54.0,46
+96,Britannia Rusk Toast 300g,Groceries,Bakery,65,Pack,False,6,39.0,51
+97,MTR Upma Mix 200g,Groceries,Bakery,65,Pack,False,7,39.0,59
+98,MTR Poha Mix 200g,Groceries,Bakery,55,Pack,False,7,33.0,25
+99,MTR Ready Idli Mix 500g,Groceries,Bakery,95,Pack,False,7,57.0,59
+100,Kitchens of India Dal Makhani 300g,Groceries,Bakery,175,Pack,True,7,105.0,76
+101,Surf Excel Matic 2kg,Household,Laundry,430,Pack,False,2,258.0,24
+102,Ariel Front Load 2kg,Household,Laundry,465,Pack,False,2,279.0,23
+103,Tide Plus 3kg,Household,Laundry,390,Pack,False,2,234.0,12
+104,Wheel Active 4kg,Household,Laundry,195,Pack,False,2,117.0,10
+105,Comfort Fabric Conditioner 1L,Household,Laundry,215,Bottle,False,2,129.0,14
+106,Rin Bar 250g,Household,Laundry,20,Bar,False,2,12.0,32
+107,Ujala Liquid Detergent 1L,Household,Laundry,175,Bottle,False,2,105.0,23
+108,Vanish Stain Remover 500g,Household,Laundry,265,Pack,False,2,159.0,16
+109,Ezee Liquid Detergent 500ml,Household,Laundry,145,Bottle,False,2,87.0,18
+110,Surf Excel Bar 150g,Household,Laundry,30,Bar,False,2,18.0,24
+111,Vim Dishwash Bar 400g,Household,Kitchen,55,Bar,False,2,33.0,24
+112,Vim Dishwash Liquid 750ml,Household,Kitchen,125,Bottle,False,2,75.0,19
+113,Pril Dishwash Gel 750ml,Household,Kitchen,135,Bottle,False,2,81.0,22
+114,Scotch Brite Scrub Pad 3pcs,Household,Kitchen,65,Pack,False,2,39.0,28
+115,Colin Glass Cleaner 500ml,Household,Kitchen,145,Bottle,False,2,87.0,16
+116,Scotch Brite Steel Scrubber 3pcs,Household,Kitchen,55,Pack,False,2,33.0,26
+117,Exo Dishwash Bar 700g,Household,Kitchen,58,Bar,False,2,34.8,29
+118,3M Sponge Wipes 3pcs,Household,Kitchen,95,Pack,False,2,57.0,13
+119,Scotties Kitchen Tissue Roll 2pcs,Household,Kitchen,75,Pack,False,10,45.0,14
+120,Kuber Dish Drying Rack Liner,Household,Kitchen,120,Piece,False,10,72.0,32
+121,Lizol Disinfectant Floor Cleaner 1L,Household,Cleaning,195,Bottle,False,2,117.0,16
+122,Harpic Power Plus 1L,Household,Cleaning,175,Bottle,False,2,105.0,22
+123,Domex Ultra Thick Bleach 1L,Household,Cleaning,145,Bottle,False,2,87.0,24
+124,Mr Muscle Bathroom Cleaner 500ml,Household,Cleaning,165,Bottle,False,2,99.0,20
+125,Dettol Surface Cleaner 500ml,Household,Cleaning,175,Bottle,False,9,105.0,13
+126,Nina Phenyl Floor Cleaner 1L,Household,Cleaning,85,Bottle,False,10,51.0,22
+127,Harpic Bathroom Acid 500ml,Household,Cleaning,95,Bottle,False,2,57.0,16
+128,Colin Multipurpose Spray 500ml,Household,Cleaning,155,Bottle,False,2,93.0,28
+129,Taski Floor Cleaner 1L,Household,Cleaning,225,Bottle,False,10,135.0,31
+130,Scotch Brite Mop Refill,Household,Cleaning,185,Piece,False,2,111.0,11
+131,Good Knight Advanced Refill 45ml,Household,Home Care,145,Refill,False,2,87.0,19
+132,All Out Refill 45ml,Household,Home Care,130,Refill,False,2,78.0,22
+133,Odonil Room Freshener 75g,Household,Home Care,95,Pack,False,9,57.0,34
+134,Air Wick Freshener 250ml,Household,Home Care,235,Can,False,2,141.0,30
+135,HIT Cockroach Spray 400ml,Household,Home Care,185,Can,False,2,111.0,15
+136,Mortein Insect Killer 425ml,Household,Home Care,195,Can,False,2,117.0,21
+137,Nimwash Naphthalene Balls 100g,Household,Home Care,45,Pack,False,10,27.0,21
+138,Ezee Garbage Bags 30pcs Medium,Household,Home Care,75,Pack,False,10,45.0,29
+139,Ezee Garbage Bags 20pcs Large,Household,Home Care,85,Pack,False,10,51.0,20
+140,Vfoil Aluminium Foil 9m,Household,Home Care,95,Roll,False,10,57.0,32
+141,Duracell AA Batteries 4pcs,Household,Stationery,145,Pack,False,10,87.0,34
+142,Eveready AAA Batteries 4pcs,Household,Stationery,95,Pack,False,10,57.0,16
+143,Cello Tape 24mm,Household,Stationery,30,Roll,False,10,18.0,10
+144,Ziploc Zip Lock Bags 20pcs,Household,Stationery,120,Pack,False,10,72.0,10
+145,Reynolds Pen 10pcs,Household,Stationery,95,Pack,False,10,57.0,34
+146,Paseo Tissue Paper Box 100pcs,Household,Home Care,85,Box,False,10,51.0,34
+147,Mangalam Candles Set 12pcs,Household,Home Care,55,Pack,False,10,33.0,29
+148,Wimco Matchbox 600 sticks,Household,Home Care,25,Box,False,10,15.0,22
+149,Cello Wrap Cling Film,Household,Home Care,125,Roll,False,10,75.0,18
+150,Mee Mee Wet Wipes 80pcs,Household,Home Care,145,Pack,False,10,87.0,12
+151,Nataraj Rubber Bands 100g,Household,Stationery,35,Pack,False,10,21.0,16
+152,Prym Safety Pins 50pcs,Household,Stationery,25,Pack,False,10,15.0,15
+153,Cello Clothesline Rope 10m,Household,Stationery,75,Roll,False,10,45.0,17
+154,Stanley Measuring Tape 5m,Household,Stationery,185,Piece,False,10,111.0,18
+155,Classmate Notebook A5 200pg,Household,Stationery,65,Piece,False,10,39.0,14
+156,Pantene Smooth Shampoo 340ml,Personal Care,Hair,285,Bottle,False,2,171.0,10
+157,Head Shoulders AntiDandruff 340ml,Personal Care,Hair,315,Bottle,False,2,189.0,28
+158,Clinic Plus Shampoo 340ml,Personal Care,Hair,195,Bottle,False,2,117.0,19
+159,Dove Intense Repair Shampoo 340ml,Personal Care,Hair,325,Bottle,False,2,195.0,21
+160,Parachute Coconut Oil 500ml,Personal Care,Hair,175,Bottle,False,3,105.0,24
+161,Bajaj Almond Oil 200ml,Personal Care,Hair,195,Bottle,False,9,117.0,18
+162,Himalaya AntiDandruff Shampoo 400ml,Personal Care,Hair,265,Bottle,False,8,159.0,29
+163,Livon Hair Serum 100ml,Personal Care,Hair,220,Bottle,False,2,132.0,26
+164,TRESemme Conditioner 190ml,Personal Care,Hair,245,Bottle,False,2,147.0,26
+165,Biotique Bio Henna 80g,Personal Care,Hair,175,Pack,False,8,105.0,29
+166,Nivea Soft Moisturising Cream 100ml,Personal Care,Skin,185,Jar,False,2,111.0,21
+167,Ponds Cold Cream 100ml,Personal Care,Skin,115,Jar,False,2,69.0,16
+168,Lakme Sunscreen SPF50 50ml,Personal Care,Skin,335,Tube,False,2,201.0,11
+169,Neutrogena Oil Free Face Wash 100ml,Personal Care,Skin,285,Bottle,False,5,171.0,12
+170,Himalaya Neem Face Wash 150ml,Personal Care,Skin,145,Tube,False,8,87.0,26
+171,Garnier Micellar Water 125ml,Personal Care,Skin,225,Bottle,False,2,135.0,14
+172,Glow and Lovely Cream 50g,Personal Care,Skin,95,Tube,False,2,57.0,26
+173,Vaseline Intensive Care 400ml,Personal Care,Skin,265,Bottle,False,2,159.0,26
+174,WOW Vitamin C Serum 30ml,Personal Care,Skin,545,Bottle,False,8,327.0,26
+175,Biotique Almond Face Cream 50g,Personal Care,Skin,195,Jar,False,8,117.0,11
+176,Colgate Maxfresh Toothpaste 150g,Personal Care,Oral,95,Tube,False,2,57.0,11
+177,Pepsodent Germicheck 150g,Personal Care,Oral,85,Tube,False,2,51.0,14
+178,Sensodyne Toothpaste 70g,Personal Care,Oral,185,Tube,False,2,111.0,10
+179,Dabur Red Toothpaste 200g,Personal Care,Oral,115,Tube,False,9,69.0,10
+180,Colgate 360 Toothbrush,Personal Care,Oral,65,Piece,False,2,39.0,28
+181,Oral B CrossAction Brush,Personal Care,Oral,195,Piece,False,2,117.0,11
+182,Listerine Mouthwash 500ml,Personal Care,Oral,235,Bottle,False,2,141.0,21
+183,Oral B Floss Picks 50pcs,Personal Care,Oral,145,Pack,False,2,87.0,15
+184,Dove Beauty Soap 100g x3,Personal Care,Bath,145,Pack,False,2,87.0,13
+185,Dettol Original Soap 75g x4,Personal Care,Bath,135,Pack,False,9,81.0,20
+186,Pears Transparent Soap 125g x3,Personal Care,Bath,115,Pack,False,2,69.0,26
+187,Fiama Shower Gel 250ml,Personal Care,Bath,195,Bottle,False,2,117.0,15
+188,Dove Body Wash 250ml,Personal Care,Bath,285,Bottle,False,2,171.0,14
+189,Himalaya Neem Soap 75g x6,Personal Care,Bath,165,Pack,False,8,99.0,29
+190,Dettol Handwash Pump 200ml,Personal Care,Bath,95,Bottle,False,9,57.0,11
+191,Lifebuoy Handwash 190ml,Personal Care,Bath,75,Bottle,False,2,45.0,15
+192,Engage Body Deo Spray 150ml,Personal Care,Bath,175,Can,False,2,105.0,20
+193,Axe Dark Temptation Deo 150ml,Personal Care,Bath,195,Can,False,2,117.0,25
+194,Gillette Mach3 Razor,Personal Care,Grooming,225,Piece,False,2,135.0,25
+195,Gillette Shaving Foam 200g,Personal Care,Grooming,225,Can,False,2,135.0,10
+196,Bombay Shaving Co Cream 100g,Personal Care,Grooming,395,Tube,False,8,237.0,18
+197,Park Avenue Deo 150ml,Personal Care,Grooming,185,Can,False,2,111.0,15
+198,Beardo Beard Oil 30ml,Personal Care,Grooming,345,Bottle,False,8,207.0,25
+199,Veet Hair Removal Cream 50g,Personal Care,Grooming,145,Tube,False,2,87.0,12
+200,Gillette Blade Refill 4pcs,Personal Care,Grooming,295,Pack,False,2,177.0,29

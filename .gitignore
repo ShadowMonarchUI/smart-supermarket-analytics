@@ -1,0 +1,5 @@
+# Ignore the massive cleaned master file
+cleaned_master_sales.csv
+
+# Ignore Jupyter Notebook checkpoint folders
+.ipynb_checkpoints/
