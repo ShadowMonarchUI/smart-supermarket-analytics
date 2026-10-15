@@ -14,6 +14,11 @@ By analyzing over **1.09 million transactions** across five store locations alon
 * **Libraries:** `pandas`, `numpy`, `matplotlib`, `seaborn`, `datetime`.
 * **Power BI:** Interactive dashboarding, Data Modeling (Star Schema), and custom DAX measures.
 
+## 📊 Download the Files & Report
+* Click [SuperMarket(Smart)_Analysis.ipynb](SuperMarket(Smart)_Analysis.ipynb) to download the `.ipynb` file and view the Research and Report.
+* Click [Smart_supermarket_dashboard.pbix](Smart_supermarket_dashboard.pbix) to download the `.pbix` file and view the interactive dashboard locally.
+
+
 ## 🗂️ Data Architecture
 The data model mimics a real-world relational database using a **Star Schema**:
 * **Fact Table:** `sales_master` (Aggregated 2022, 2023, and 2024 transactional data).
@@ -60,6 +65,9 @@ The data model mimics a real-world relational database using a **Star Schema**:
 ---
 
 ## 🚀 Power BI Dashboard Highlights
+### 📊 Download the Power BI Report
+Click [Smart_supermarket_dashboard.pbix](Smart_supermarket_dashboard.pbix) to download the `.pbix` file and view the interactive dashboard locally.
+
 <img width="1443" height="812" alt="Screenshot 2026-10-15 222215" src="https://github.com/user-attachments/assets/0fc671c2-8e3d-4ec2-81cd-a7d98721489e" />
 <img width="1440" height="803" alt="Screenshot 2026-10-15 222303" src="https://github.com/user-attachments/assets/b42a4465-b837-43ca-aacf-096ecbb5f20a" />
 <img width="1440" height="858" alt="Screenshot 2026-10-15 222332" src="https://github.com/user-attachments/assets/a8a153eb-5521-45cf-a19a-277245dc31ba" />
