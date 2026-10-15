@@ -1,4 +1,4 @@
-# Supermarket Retail Operations & Sales Analytics
+# Smart Supermarket Retail Operations & Sales Analytics
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![Pandas](https://img.shields.io/badge/Pandas-Data_Manipulation-150458.svg)](https://pandas.pydata.org/)
@@ -19,42 +19,48 @@ The data model mimics a real-world relational database using a **Star Schema**:
 * **Fact Table:** `sales_master` (Aggregated 2022, 2023, and 2024 transactional data).
 * **Dimension Tables:** `products` (catalog details, pricing, supplier mappings) and `inventory` (current stock levels, expiry dates, batch IDs).
 
-## 💡 Key Business Insights 
+---
 
-### 1. Macro Financials & Pricing Strategy
-* **Total Performance:** The business generated **₹2.14 Billion** in revenue and **₹856.3 Million** in gross profit over 36 months.
-* **Controlled Margins:** The baseline pricing strategy targets a strict 40% gross profit margin across the catalog. Transaction-level data proves actual realized margins remain tightly controlled, fluctuating only slightly between 39% and 41% due to minor point-of-sale variations.
+## 💡 KEY FINDINGS
 
-### 2. Extreme Seasonality (The Festive Spike)
-* Year-over-year revenue is stagnant (hovering around ₹714M annually), but monthly trends reveal extreme seasonality. 
-* Revenue roughly doubles every **October (₹330.1M)** and **November (₹289.2M)** compared to summer months. This requires severe supply chain ramp-ups starting in August to meet Diwali/Dussehra demand.
+### Executive Summary
+* **Total Revenue (2022–2024):** ₹2.14 Billion
+* **Total Profit:** ₹856.3 Million
+* **Total Transaction Volume:** 1,095,975 individual sales
+* **Store Consistency:** Store operations are highly standardized, with all 5 locations generating near-identical revenue across the three-year period (ranging tightly between ₹427.5M and ₹428.8M per store).
 
-### 3. Customer Traffic & Staffing
-* Peak shopping occurs on **weekends between 12:00 PM and 5:00 PM**.
-* **Whale/B2B Customers:** While the Average Order Value (AOV) is ₹1,953 (approx. 15 items), the maximum recorded transaction is an outlier at **₹92,805** (230 items), indicating the supermarket is frequently utilized by local B2B vendors or caterers.
+### Sales & Seasonality Trends
+* **Flat YoY Growth:** Year-over-year revenue is stagnant but stable. (2022: ₹714.3M | 2023: ₹714.0M | 2024: ₹712.5M).
+* **The Q4 Festive Spike:** There is extreme seasonality in the business. Over the 3-year period, October (₹330.1M) and November (₹289.2M) generated disproportionately higher sales than any other months, closely aligning with the Indian festive season (Diwali/Dussehra).
+* **Summer Slump:** April (₹117.2M) and July (₹128.7M) represent the weakest periods for the business, requiring heavy promotional intervention to stabilize cash flow.
 
-### 4. Supply Chain & Compliance Risks (Action Required)
-* **Supplier Dependency:** **Supplier #2** alone provides 68 catalog items and accounts for **29.2% of total revenue**, representing a massive single point of failure.
-* **Stockouts:** 20 products (10% of the active catalog) are currently sitting below their safe reorder levels, resulting in unfulfilled demand.
-* **Spoilage/Compliance:** 16 products currently on shelves are **already expired**, and 30 more will expire in the next 90 days, requiring immediate liquidation via discount promotions.
+### Product & Supplier Performance
+* **Category Dominance:** Groceries is the absolute financial backbone of the business, accounting for ₹1.44 Billion (67.6%) of total revenue. Household (₹357.6M) and Personal Care (₹334.7M) make up the remaining third.
+* **Top Subcategories:** Within Groceries, Staples (₹440.7M) and Beverages (₹360.2M) are the highest-grossing subcategories.
+* **Top Products:** The top 5 revenue-generating items are everyday essentials, not luxury goods:
+  1. India Gate Basmati Rice 5kg (₹69.2M)
+  2. Patanjali Cow Ghee 1L (₹67.8M)
+  3. DiSano Extra Virgin Olive Oil 500ml (₹57.7M)
+  4. Lal Qilla Sona Masoori Rice 5kg (₹50.6M)
+  5. Patanjali Chakki Fresh Atta 10kg (₹45.2M)
+* **Supplier Risk:** The business has a high dependency on Supplier #2, who provides 68 unique products and is responsible for ₹626.4 Million (29.2%) of total cumulative revenue.
+
+### Customer Shopping Behavior
+* **Day of Week:** Weekends dictate the business model. Saturday (₹402.2M) and Sunday (₹372.6M) are the strongest days, generating nearly double the volume of a standard mid-week day like Monday (₹254.5M).
+* **Time of Day:** The Afternoon (12:00 PM – 4:59 PM) is the peak shopping window, accounting for ₹752.1M in sales, followed by the Evening (5:00 PM – 8:59 PM) at ₹676.5M. Mornings and nights are significantly slower.
+* **Basket Analysis (AOV):** The average transaction contains 15 items with an Average Order Value (AOV) of ₹1,953.
+* **B2B / Whale Outliers:** While the average basket is small, the maximum recorded transaction value is ₹92,805 (230 items), indicating the presence of bulk B2B purchasers (e.g., local restaurants, caterers, or small vendors) utilizing the supermarket for wholesale needs.
+
+### Operational & Supply Chain Risks
+* **Out-of-Stock Risk:** Currently, 20 products (10% of the catalog) are sitting below their designated safe reorder_level in the inventory. This presents an immediate risk of stockouts and unfulfilled customer demand.
+* **Expiry & Compliance Audit:** A critical health-code and financial write-off risk exists on the shelves. As of the current audit date:
+  * 16 products have already passed their expiry_date but remain in active inventory.
+  * 30 products will expire within the next 90 days, requiring immediate liquidation via discount promotions to recover capital before total spoilage.
+
+---
 
 ## 🚀 Power BI Dashboard Highlights
-*(Add screenshots of your Power BI dashboard here)*
-
-![Executive Summary Placeholder](link_to_your_executive_summary_image.png)
-* **Data Modeling:** Combined multiple fact tables into a unified schema connected to an auto-generated Calendar table for time-intelligence reporting.
-* **Custom DAX Measures:** Engineered complex measures for Dynamic Profit Margin %, Expiry Risk Flagging, and Average Order Value.
-* **Interactive Slicers:** Allows stakeholders to drill down from macro yearly revenue into specific subcategory and supplier performance.
-
-## 📁 Repository Structure
-```text
-├── datasets/
-│   ├── sales_2022.csv
-│   ├── sales_2023.csv
-│   ├── sales_2024.csv
-│   ├── products.csv
-│   └── inventory.csv
-├── SuperMarket(Smart)_Analysis.ipynb   # Python EDA and Feature Engineering
-├── cleaned_master_sales.csv            # Exported clean data for Power BI
-├── Supermarket_Dashboard.pbix          # Power BI Dashboard File
-└── README.md
+<img width="1443" height="812" alt="Screenshot 2026-10-15 222215" src="https://github.com/user-attachments/assets/0fc671c2-8e3d-4ec2-81cd-a7d98721489e" />
+<img width="1440" height="803" alt="Screenshot 2026-10-15 222303" src="https://github.com/user-attachments/assets/b42a4465-b837-43ca-aacf-096ecbb5f20a" />
+<img width="1440" height="858" alt="Screenshot 2026-10-15 222332" src="https://github.com/user-attachments/assets/a8a153eb-5521-45cf-a19a-277245dc31ba" />
+<img width="1598" height="767" alt="Screenshot 2026-10-15 222502" src="https://github.com/user-attachments/assets/0990d3ca-7b1c-47e1-a27a-97cb90dfab3c" />
