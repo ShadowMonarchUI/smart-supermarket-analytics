@@ -68,7 +68,7 @@ The data model mimics a real-world relational database using a **Star Schema**:
 ### 📊 Download the Power BI Report
 Click [Smart_supermarket_dashboard.pbix](Smart_supermarket_dashboard.pbix) to download the `.pbix` file and view the interactive dashboard locally.
 
-<img width="1443" height="812" alt="Screenshot 2026-10-15 222215" src="https://github.com/user-attachments/assets/0fc671c2-8e3d-4ec2-81cd-a7d98721489e" />
-<img width="1440" height="803" alt="Screenshot 2026-10-15 222303" src="https://github.com/user-attachments/assets/b42a4465-b837-43ca-aacf-096ecbb5f20a" />
-<img width="1440" height="858" alt="Screenshot 2026-10-15 222332" src="https://github.com/user-attachments/assets/a8a153eb-5521-45cf-a19a-277245dc31ba" />
+<img width="1441" height="859" alt="Screenshot 2026-10-15 230141" src="https://github.com/user-attachments/assets/f73b4ef4-2d61-4c42-ac75-ffc91239d8ab" />
+<img width="1441" height="853" alt="Screenshot 2026-10-15 230202" src="https://github.com/user-attachments/assets/314847b4-b2a7-4b6c-8001-c9a85253645d" />
+<img width="1440" height="858" alt="Screenshot 2026-10-15 230239" src="https://github.com/user-attachments/assets/7b86f44c-5b0f-4f6f-a095-1de6ed1d34b8" />
 <img width="1598" height="767" alt="Screenshot 2026-10-15 222502" src="https://github.com/user-attachments/assets/0990d3ca-7b1c-47e1-a27a-97cb90dfab3c" />
